@@ -89,7 +89,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TCPickerView", "TCPickerView/**/*.{h,m}"
+  spec.source_files  = "TCPickerView", "TCPickerView/**/*"
+  spec.ios.resource_bundle = {'TCPickerView' => ['TCPickerView/**/*.{xcassets}']}
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
