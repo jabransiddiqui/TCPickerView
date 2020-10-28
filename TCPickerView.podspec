@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "TCPickerView", "TCPickerView/**/*"
-  spec.ios.resource_bundle = {'TCPickerView' => ['TCPickerView/**/*.{xcassets}']}
+  # spec.ios.resource_bundle = {'TCPickerView' => ['TCPickerView/**/*.{xcassets}']}
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
