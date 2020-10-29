@@ -10,7 +10,6 @@
 		401773A725498EA600A5F949 /* TCPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 401773A525498EA600A5F949 /* TCPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		401773AE25498ED800A5F949 /* TCPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401773AD25498ED800A5F949 /* TCPickerTableViewCell.swift */; };
 		401773B025498EFD00A5F949 /* TCPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401773AF25498EFD00A5F949 /* TCPickerView.swift */; };
-		401773B525498F8400A5F949 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401773B425498F8400A5F949 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +18,6 @@
 		401773A625498EA600A5F949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		401773AD25498ED800A5F949 /* TCPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPickerTableViewCell.swift; sourceTree = "<group>"; };
 		401773AF25498EFD00A5F949 /* TCPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPickerView.swift; sourceTree = "<group>"; };
-		401773B425498F8400A5F949 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,21 +50,12 @@
 		401773A425498EA600A5F949 /* TCPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				401773B325498F5F00A5F949 /* Resources */,
 				401773AD25498ED800A5F949 /* TCPickerTableViewCell.swift */,
 				401773AF25498EFD00A5F949 /* TCPickerView.swift */,
 				401773A525498EA600A5F949 /* TCPickerView.h */,
 				401773A625498EA600A5F949 /* Info.plist */,
 			);
 			path = TCPickerView;
-			sourceTree = "<group>";
-		};
-		401773B325498F5F00A5F949 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				401773B425498F8400A5F949 /* Media.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				401773B525498F8400A5F949 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
